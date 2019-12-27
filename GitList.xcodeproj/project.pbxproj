@@ -13,6 +13,7 @@
 		0F826E4623B675AD003BE611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F826E4523B675AD003BE611 /* Assets.xcassets */; };
 		0F826E4923B675AD003BE611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F826E4823B675AD003BE611 /* Preview Assets.xcassets */; };
 		0F826E4C23B675AD003BE611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F826E4A23B675AD003BE611 /* LaunchScreen.storyboard */; };
+		0F826E5423B68691003BE611 /* stuffRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F826E5323B68691003BE611 /* stuffRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0F826E4823B675AD003BE611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F826E4B23B675AD003BE611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F826E4D23B675AE003BE611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F826E5323B68691003BE611 /* stuffRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stuffRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0F826E3F23B675AC003BE611 /* AppDelegate.swift */,
 				0F826E4123B675AC003BE611 /* SceneDelegate.swift */,
 				0F826E4323B675AC003BE611 /* ContentView.swift */,
+				0F826E5323B68691003BE611 /* stuffRowView.swift */,
 				0F826E4523B675AD003BE611 /* Assets.xcassets */,
 				0F826E4A23B675AD003BE611 /* LaunchScreen.storyboard */,
 				0F826E4D23B675AE003BE611 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F826E5423B68691003BE611 /* stuffRowView.swift in Sources */,
 				0F826E4023B675AC003BE611 /* AppDelegate.swift in Sources */,
 				0F826E4223B675AC003BE611 /* SceneDelegate.swift in Sources */,
 				0F826E4423B675AC003BE611 /* ContentView.swift in Sources */,

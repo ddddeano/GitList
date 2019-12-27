@@ -9,8 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var stuffArray = ["tray", "pencil","calendar", "trash", "clock"]
+    
     var body: some View {
-        Text("Hello, World!")
+        List(stuffArray, id: \.self) { stuff in
+            stuffRowView(stuffName: stuff.self)
+        }
     }
 }
 
