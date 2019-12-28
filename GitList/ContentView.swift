@@ -10,11 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var stuffArray = ["tray", "pencil","calendar", "trash", "clock"]
-    
     var body: some View {
         List(stuffArray, id: \.self) { stuff in
-            stuffRowView(stuffName: stuff.self)
+            stuffRowView(stuffName: stuff)
         }
     }
 }
